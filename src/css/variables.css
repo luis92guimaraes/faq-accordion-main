@@ -1,0 +1,6 @@
+::root {
+    --bg-card-color: hsl(0, 0%, 100%);
+    --bg-color: hsl(275, 100%, 97%);
+    --btn-color: hsl(292, 16%, 49%);
+    --btn-act-color: hsl(292, 42%, 14%);
+}
