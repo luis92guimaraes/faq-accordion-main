@@ -1,7 +1,7 @@
 body {
-    background-color: var(--bg-color);
     background: url(../assets/images/background-pattern-desktop.svg) center top no-repeat fixed;
     background-size: contain;
+    background-color: var(--bg-color);
 }
 
 .container {
@@ -18,23 +18,28 @@ body {
     width: 620px;
     height: 600px;
     border-radius: 10px;
+    margin-top: 90px;
 }
 
 .title {
     display: flex;
-    margin: 40px 40px 20px 40px;
+    padding: 40px 40px 20px 30px;
 }
 
 .title .star {
     font-size: 20px;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 
 .title h1 {
-    font-weight: 700;
     font-size: 60px;
 }
 
 .doubts {
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0 30px;
+    margin-top: 25px;
 }
+
