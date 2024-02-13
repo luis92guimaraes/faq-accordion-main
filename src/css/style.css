@@ -1,5 +1,5 @@
 body {
-    background: url(../assets/images/background-pattern-desktop.svg) center top no-repeat fixed;
+    background: url(../assets/images/background-pattern-desktop.svg) no-repeat fixed;
     background-size: contain;
     background-color: var(--bg-color);
 }
@@ -8,26 +8,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh;
 }
 
 .card {
     background-color: var(--bg-card-color);
-    border: 3px red solid;
-    width: 620px;
-    height: 600px;
+    width: 700px;
+    height: 500px;
     border-radius: 10px;
-    margin-top: 90px;
+    box-shadow: 1px 20px 20px rgb(238, 216, 244);
 }
 
 .title {
     display: flex;
-    padding: 40px 40px 20px 30px;
+    padding: 30px 40px 20px 40px;
+
 }
 
 .title .star {
-    font-size: 20px;
     margin-right: 20px;
 }
 
@@ -35,11 +33,36 @@ body {
     font-size: 60px;
 }
 
-.doubts {
+#doubts {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 30px 0 30px;
-    margin-top: 25px;
+    flex-direction: column;
+    padding: 0 50px 0 40px;
 }
 
+.doubt {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.doubt a {
+    color: black;
+}
+
+.doubt .btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    right: -10px;
+    top: -3px;
+}
+
+.doubt .reply {
+    color: var(--btn-color);
+    padding: 20px 0 0 0;
+    line-height: 150%;
+}
+
+.doubt a:hover {
+    color: purple;
+}

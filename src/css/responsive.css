@@ -1,0 +1,29 @@
+@media(max-width: 375px){
+    body {
+        background: url(../assets/images/background-pattern-mobile.svg) top no-repeat fixed;
+        background-size: 100%;
+    }
+
+    .title h1 { 
+        font-size: 35px;
+    }
+
+    .title .star {
+        width: 20px;
+    }
+    
+    .card {
+        width: 600px;
+        height: 610px;
+        margin: 0 25px;
+    }
+
+    .doubt a {
+        font-size: 0.9rem;
+    }
+
+    .doubt .btn{
+        right: -30px;
+        top: -2px;
+    }
+}
